@@ -473,7 +473,7 @@
 			},
 			"SQLLoginUsername": {
 				"type": "string",
-				"defaultValue": "masteruser"
+				"defaultValue": "fgfzs72xc2ryern2pocws1"
 			},
 			"KeyVaultName": {
 				"type": "string",
