@@ -1,0 +1,7 @@
+{
+	"name": "1235dc-IR-IntegrationRuntime1",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "1235dc-IR"
+	}
+}
