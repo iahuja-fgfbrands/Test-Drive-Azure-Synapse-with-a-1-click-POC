@@ -519,7 +519,7 @@
 					},
 					"SQLLoginUsername": {
 						"type": "string",
-						"defaultValue": "masteruser"
+						"defaultValue": "fgfzs72xc2ryern2pocws1"
 					},
 					"KeyVaultName": {
 						"type": "string",
@@ -1205,6 +1205,17 @@
 				"typeProperties": {
 					"baseUrl": "[parameters('keyVaultLinkedservice_properties_typeProperties_baseUrl')]"
 				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('workspaceName'), '/1235dc-IR-IntegrationRuntime1')]",
+			"type": "Microsoft.Synapse/workspaces/integrationRuntimes",
+			"apiVersion": "2019-06-01-preview",
+			"properties": {
+				"type": "SelfHosted",
+				"description": "1235dc-IR",
+				"typeProperties": {}
 			},
 			"dependsOn": []
 		},
